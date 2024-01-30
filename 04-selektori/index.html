@@ -15,6 +15,26 @@
         [title]{
             text-decoration: underline solid red;
         }
+        [title="prvi odlomak"] {
+            font-weight: bold
+        }
+        [title*="odlomak"] {
+            color: green;
+        }
+        [title~="odlomak"]{
+            text-transform: uppercase;
+        }
+        [title="odlomak"]{
+            text-transform: uppercase;
+        }
+        [title|="odlomak"]{
+            text-transform: uppercase;
+        }
+        [title$="odlomak"]{
+            text-transform: uppercase;
+        }
+
+
     </style>
 </head>
 
@@ -60,8 +80,10 @@
         pariatur.
     </p>
     <p title="odlomakbla">
-        Lorem ipsum dolor sit amet, <strong>consectetur <span title="adipisicing">adipisicing</span>
-        elit</strong>, sed do eiusmod tempor
+        Lorem ipsum dolor sit amet, 
+        <strong>consectetur <span title="adipisicing">adipisicing</span>
+            elit
+        </strong>, sed do eiusmod tempor
         incididunt ut
         labore et dolore
         magna aliqua. Ut enim ad minim veniam, <em>quis nostrud exercitation ullamco</em> laboris nisi ut aliquip ex ea
