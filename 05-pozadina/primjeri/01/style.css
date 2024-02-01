@@ -4,26 +4,26 @@ body{
     color: #333;
 }
 h1{
-    background-color: rosybrown;
+    background-color: rgb(253, 190, 190);
 }
 header{
     background-color: green;
 }
 nav {
-    background-color: antiquewhite;
+    background-color: #ffc;
 }
 main {
-    background-color: aqua;
+    background-color: skyblue;
 }
 main > p{
-    background-color: white;
+    background-color: #eee;
 }
 footer {
-    background-color: brown;
+    background-color: rgb(153, 51, 51);
 }
 header > p{
-    background-color: white;
+    background-color: #eee;
 }
 footer > p {
-    background-color: white;
+    background-color: #eee;
 }
