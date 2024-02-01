@@ -4,3 +4,9 @@ body {
     color: #333;
     background-color: #ddd;
 }
+p:first-of-type {
+    background: #ffc url(../../../images/light-bulb.png) center center/contain no-repeat;
+}
+p:nth-of-type(3){
+    background: url(../../../images/orange.png); 
+}
