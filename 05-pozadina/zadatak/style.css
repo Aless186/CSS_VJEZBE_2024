@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    background: url(../../images/fire.png) center center/500px no-repeat, url(../../images/pattern.png) center center/cover no-repeat, url(../../images/blossom.jpg) center center/cover no-repeat;
+    background: url(../../images/fire.png) center 30%/18% no-repeat fixed, url(../../images/pattern.png) center center/cover no-repeat fixed, url(../../images/blossom.jpg) center center/cover no-repeat fixed;
     
 }
 h1 {
