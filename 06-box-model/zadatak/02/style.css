@@ -1,0 +1,10 @@
+div:first-of-type {
+    box-sizing: border-box;
+    background-color: gray;
+    border: #333;
+}
+.test {
+    box-sizing: border-box;
+    background-color: gray;
+    border: #333;
+}
