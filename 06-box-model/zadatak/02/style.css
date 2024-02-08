@@ -1,10 +1,18 @@
-div:first-of-type {
-    box-sizing: border-box;
-    background-color: gray;
-    border: #333;
+div:first-child > div:last-of-type {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 200px;
 }
-.test {
-    box-sizing: border-box;
+div > div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+body > div {
+    width: 400px;
+    height: 400px;
     background-color: gray;
-    border: #333;
+    border: 6pt solid #333;
+    margin: 25% auto;
 }
