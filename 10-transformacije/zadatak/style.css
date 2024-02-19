@@ -2,7 +2,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  
+
   body {
     font-family: Tahoma, sans-serif;
     font-size: 16px;
@@ -11,29 +11,30 @@
   h1 {
     text-align: center;
   }
-  
-  /* box */
-  
+
+  section{border:1px solid #CCC;
+  margin:auto;
+  width:400px;}
+
   div {
     background-color: #f93;
     border: 1px solid #333;
+    font-size:2em;
+    line-height:150px;
     width: 300px;
     height: 150px;
     margin: 4em auto;
+    text-align:center;
   }
 
-  .translate {
-    transform: translate(150px, -20px);
+  div:nth-of-type(4){
+    transform: rotate(0.50turn);
   }
-  .rotate {
-    transform: rotate(0.25turn);
-  }
-  .scale {
-    transform: scale(0.5, 0.3);
-  }
-  .skew {
+
+  div:nth-of-type(5) {
     transform: skew(20deg, 15deg);
   }
-  .multiple {
-    transform: rotate(30deg) scale(0.5, 0.3) skew(30deg, 15deg);
+  div:nth-of-type(6) {
+    transform: skewY(20deg, 15deg);
   }
+
