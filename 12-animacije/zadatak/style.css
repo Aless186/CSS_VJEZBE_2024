@@ -35,14 +35,17 @@ h1 {
 }
 
 @keyframes animacija1 {
-  100% {
-      transform: scale(1);
-      background: #f93;
+  0% {
+    transform: scale(1);
+
   }
 
   50% {
-      transform: scale(1.2);
-      background: red;
+    transform: scale(1.2);
+  }
+  
+  100% {
+    transform: scale(1);
   }
   
 }
