@@ -1,4 +1,4 @@
-* {
+*{
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -8,6 +8,7 @@ body {
   font-size: 16px;
   color: #333;
 }
+
 h1 {
   text-align: center;
 }
@@ -28,3 +29,98 @@ h1 {
   margin: 1em;
   text-align: center;
 }
+
+.wrapper > div:first-of-type {
+  animation: animacija1 2s infinite;
+}
+
+@keyframes animacija1 {
+  100% {
+      transform: scale(1);
+      background: #f93;
+  }
+
+  50% {
+      transform: scale(1.2);
+      background: red;
+  }
+  
+}
+
+
+div:nth-of-type(2) {
+  animation: animacija2 3s infinite alternate;
+}
+
+@keyframes animacija2 {
+  100% {
+      transform: translateY(0) rotate(0deg);
+  }
+  50% {
+      transform: translateY(50vh) rotate(180deg);
+      width: 80px;
+      height: 80px;
+  }
+}
+
+div:nth-of-type(3) {
+  animation: animacija3 3s linear infinite alternate;
+}
+
+@keyframes animacija3 {
+  100% {
+      transform: rotate(0deg);
+      border-radius: 50%;
+  }
+  50% {
+      transform: rotate(360deg);
+      border-radius: 0;
+  }
+}
+
+div:nth-of-type(4) {
+  animation: animacija4 0.5s infinite;
+}
+
+@keyframes animacija4 {
+  100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+}
+
+div:nth-of-type(5) {
+  animation: animacija5 5s infinite alternate;
+}
+
+@keyframes animacija5 {
+  0%, 100%{
+      transform: translateY(0) rotate(0deg);
+      background-color: #f93;
+  }
+  50% {
+      transform: translateY(75vh) rotate(360deg);
+      background-color: red;
+  }
+}
+  /* 100% {
+      transform: translateY(0) rotate(0deg);
+      background-color: #f93;
+  }
+} */
+
+
+div:nth-of-type(6):hover {
+  animation: animacija6 1s alternate;
+}
+
+@keyframes animacija6 {
+  100% {
+      transform: scale(1.5);
+  }
+  50% {
+      transform: scale(2);
+  }
+} 
