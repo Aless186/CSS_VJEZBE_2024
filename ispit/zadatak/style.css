@@ -20,25 +20,25 @@ div {
     border: 2px solid white;
     width: 400px;
     height: 400px;
-    flex: 0 28%;
+    transform: translateY(-100vh);
 }
 
 div:nth-of-type(1) {
     background-color: gray;
     opacity: 80%;
-    animation: animacija1 1.5s linear;
+    animation: animacija1 1.5s linear forwards;
 }
 
 div:nth-of-type(2) {
     background-color: red;
     opacity: 50%;
-    animation: animacija1 1.5s linear 1.5s;
+    animation: animacija1 1.5s linear 1.5s forwards;
 }
 
 div:nth-of-type(3) {
     background-color: orange;
     opacity: 60%;
-    animation: animacija1 1.5s linear 3s;
+    animation: animacija1 1.5s linear 3s forwards;
 }
 
 section {
